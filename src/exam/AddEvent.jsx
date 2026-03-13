@@ -33,8 +33,8 @@ export default function AddEvent() {
             <div className="form-group">
                 <input id="ename" placeholder="Event Name" value={formData.ename} onChange={handleChange} required/>
                 <input id="description" placeholder="Description" value={formData.description} onChange={handleChange}/>
-                <input id="date" placeholder="Start Date (YYYY-MM-DD)" type="text" value={formData.date} onChange={handleChange} required/>
-                <input id="edate" placeholder="End Date (YYYY-MM-DD)" type="text" value={formData.edate} onChange={handleChange}/>
+                <input id="date" placeholder="Start Date (DD-MM-YYYY)" type="text" value={formData.date} onChange={handleChange} required/>
+                <input id="edate" placeholder="End Date (DD-MM-YYYY)" type="text" value={formData.edate} onChange={handleChange}/>
                 <input id="quantity" placeholder="Members" type="number" value={formData.quantity} onChange={handleChange}/>
                 <input id="amount" placeholder='Cost' type="number" value={formData.amount} onChange={handleChange}/>
             </div>
