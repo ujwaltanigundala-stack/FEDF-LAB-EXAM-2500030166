@@ -12,7 +12,7 @@ export default function NavBar() {
         <div className="navbar">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/AddEvent" className="nav-link">AddEvent</Link>
-            <Link to="/RegEvents" className="nav-link">RegEvents</Link>
+            <Link to="/RegEvents" className="nav-link">ViewEvents</Link>
             <Link to="/ApiDemo" className="nav-link">ApiDemo</Link>
         </div>
 
